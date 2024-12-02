@@ -1,8 +1,8 @@
-# mtm6407-static-site-navdeepkaurbhangu
+# mtm6407-static-site-Ambika2024
 
-Name: Navdeep Kaur Bhangu
+Name: Ambika
 
 Student number: 90541106465
 
 Static site generator: Tropical
-![image](https://github.com/user-attachments/assets/248bcad0-e678-451b-a007-3d49fb7d6aa6)
+
