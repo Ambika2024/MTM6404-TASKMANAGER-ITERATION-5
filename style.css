@@ -1,0 +1,125 @@
+/* Style for the h1 box */
+.h1-box {
+  display: inline-block;
+  background-color: #4caf50; /* Fresh green background */
+  color: #ffffff; /* White text color */
+  padding: 20px 30px; /* Padding inside the box */
+  border-radius: 15px; /* More rounded corners */
+  box-shadow: 0 8px 12px rgba(5, 90, 60, 0.926); /* Prominent shadow */
+}
+
+/* Add some margin for spacing around the box */
+.h1-box h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 3rem; /* Larger font size */
+  font-family: 'Poppins', sans-serif; /* Modern and bold font */
+}
+
+/* Center align the home section */
+#home {
+  text-align: center;
+  font-family: 'Poppins', sans-serif; /* Clean font for body text */
+  color: #4caf50; /* Green text color */
+}
+
+/* Image above the h1 */
+.custom-image {
+  max-width: 300px; /* Slightly larger width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Centering helper */
+  margin: 0 auto; /* Center the image horizontally */
+  border: 5px solid #4caf50; /* Add a border to the image */
+  border-radius: 50%; /* Make the image circular */
+}
+
+/* Card styling */
+.card {
+  background-color: #f5f5f5; /* Light background */
+  border: 1px solid #e0e0e0; /* Soft border */
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  font-family: 'Roboto', sans-serif; /* Elegant font */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Slight lift effect */
+  box-shadow: 0 12px 24px rgba(5, 101, 60, 0.859); /* Deeper shadow */
+}
+
+.card-title {
+  color: #ff5722; /* Vibrant orange */
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif; /* Stylish heading font */
+}
+
+.card-text {
+  line-height: 1.6; /* Improved readability */
+  color: #757575; /* Muted grey text */
+}
+
+/* About section padding and styling */
+#about {
+  padding-top: 50px;
+  font-family: 'Lora', serif; /* Classic font */
+  color: #424242; /* Darker grey text */
+  background-color: #e8f5e9; /* Soft green background */
+  border-left: 5px solid #4caf50; /* Highlight with a left border */
+}
+
+/* Gallery card hover effect */
+.card img {
+  border-radius: 12px; /* Softer image corners */
+  transition: transform 0.4s ease; /* Smooth image zoom */
+}
+
+.card img:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  filter: brightness(1.1); /* Increase brightness on hover */
+}
+
+#site-footer {
+  background-color: #005f73; /* Custom background color */
+  color: #ffffff; /* Custom text color */
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+}
+
+/* Buttons for form */
+button {
+  background-color: #ff5722; /* Bright orange */
+  border: none; /* No border */
+  color: #ffffff; /* White text */
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  padding: 12px 25px;
+  border-radius: 8px; /* Rounded corners */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #e64a19; /* Deeper orange on hover */
+  transform: scale(1.05); /* Slight growth on hover */
+}
+
+/* Improved form input styles */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+input:focus, textarea:focus {
+  border-color: #4caf50; /* Highlight border on focus */
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.8); /* Green glow */
+}
+
+/* General body styling */
+body {
+  background-color: #f5f5f5; /* Light grey for the background */
+  color: #212121; /* Deep grey for body text */
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+}
